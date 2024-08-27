@@ -1,7 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
-
+  
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2176,13 +2176,13 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 4em 0;
+		margin: 0 0 2em 0;
 		position: relative;
 		text-align: center;
 	}
 
 		header.major:after {
-			background: #a7a7a7;
+			background: #ffa228;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2193,6 +2193,25 @@ input, select, textarea {
 	footer.major {
 		margin: 4em 0 0 0;
 	}
+	header.major2 {
+		margin: 0 0 2em 0;
+		position: relative;
+		text-align: center;
+	}
+
+		header.major2:after {
+			background: #a7a7a7;
+			content: '';
+			display: inline-block;
+			height: 0.2em;
+			max-width: 20em;
+			width: 75%;
+		}
+
+	footer.major2 {
+		margin: 4em 0 0 0;
+	}
+
 
 /* Form */
 
@@ -3309,9 +3328,9 @@ input, select, textarea {
 /* Dropotron */
 
 	.dropotron {
-		background: rgba(39, 40, 51, 0.965);
+		background: rgb(199, 199, 199);
 		border-radius: 4px;
-		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
+		box-shadow: 0 0.075em 0.35em 0 rgba(160, 160, 160, 0);
 		list-style: none;
 		margin-top: calc(-0.25em + 1px);
 		min-width: 12em;
@@ -3325,7 +3344,7 @@ input, select, textarea {
 
 			.dropotron > li a, .dropotron > li span {
 				border: 0;
-				color: rgba(255, 255, 255, 0.75);
+				color: rgba(0, 0, 0, 0.75);
 				display: block;
 				padding: 0.1em 1em;
 				text-decoration: none;
@@ -3926,7 +3945,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #e44c65;
+						background: #a7a7a7;
 						color: rgba(255, 255, 255, 0.5);
 						content: '\f0c9';
 						display: block;
