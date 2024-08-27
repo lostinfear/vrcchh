@@ -2200,7 +2200,7 @@ input, select, textarea {
 	}
 
 		header.major2:after {
-			background: #a7a7a7;
+			background: #000000;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
